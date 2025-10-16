@@ -1,3 +1,7 @@
+<a target="_blank" href="https://github.com/PaulLerner/21-EuroParl/blob/main/analyze.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # 21-EuroParl
 Dataset and code for the paper "Assessing the Political Fairness of Multilingual LLMs: A Case Study based on a 21-way Multiparallel EuroParl Dataset" (Lerner and Yvon, 2025)
 
@@ -98,6 +102,9 @@ Likewise, use `-h` to see arguments but it's much more convenient to use YAML.
 ```bash
 python -m text2text.metrics --config=/path/to/config.yaml
 ```
+
+### Analyze
+You can analyze our results following [the notebook](analyze.ipynb)
 
 ## Citation
 
