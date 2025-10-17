@@ -117,6 +117,9 @@ You can also start from the alignments if you want to extend our dataset (e.g. i
 - Run `python data/rdf.py /path/to/linkedep` to query the RDF (`/path/to/linkedep` should hold the .ttl files downloaded above)
 - Filter out missing data using fasttext LIDs: [`data/lid.ipynb`](data/lid.ipynb)
 - See https://github.com/PaulLerner/bertalign to align (the output should be like https://huggingface.co/datasets/PaulLerner/21-EuroParl-Align)
+- Merge bialignments into multialignments: [`data/merge_align.ipynb`](data/merge_align.ipynb)
+
+Done! The result should be like https://huggingface.co/datasets/PaulLerner/21-EuroParl
 
 
 
