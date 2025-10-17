@@ -14,6 +14,8 @@ from datasets import load_dataset
 dataset = load_dataset("PaulLerner/21-EuroParl")
 ```
 
+See [below](#alignment) how the dataset was aligned.
+
 ## Experiments
 
 Reproduce our experiments as instructed below or analyze our results from https://huggingface.co/datasets/PaulLerner/21-EuroParl-Pred/
@@ -105,6 +107,18 @@ python -m text2text.metrics --config=/path/to/config.yaml
 
 ### Analyze
 You can analyze our results following [the notebook](analyze.ipynb)
+
+## Alignment
+Note: you don't need to do any of that, see [above](#dataset) to download the aligned dataset
+
+You can also start from the alignments if you want to extend our dataset (e.g. include one-to-many alignments, change the threshold etc.): https://huggingface.co/datasets/PaulLerner/21-EuroParl-Align
+
+- Get the [LinkedEP knowledge graph](https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x62-ew3m) ([van Aggelen et al., 2016](https://journals.sagepub.com/doi/full/10.3233/SW-160227))
+- Run `python data/rdf.py /path/to/linkedep` to query the RDF (`/path/to/linkedep` should hold the .ttl files downloaded above)
+- See https://github.com/PaulLerner/bertalign to align (the output should be like https://huggingface.co/datasets/PaulLerner/21-EuroParl-Align)
+
+
+
 
 ## Citation
 
