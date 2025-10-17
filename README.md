@@ -115,6 +115,7 @@ You can also start from the alignments if you want to extend our dataset (e.g. i
 
 - Get the [LinkedEP knowledge graph](https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x62-ew3m) ([van Aggelen et al., 2016](https://journals.sagepub.com/doi/full/10.3233/SW-160227))
 - Run `python data/rdf.py /path/to/linkedep` to query the RDF (`/path/to/linkedep` should hold the .ttl files downloaded above)
+- Filter out missing data using fasttext LIDs: [`data/lid.ipynb`](data/lid.ipynb)
 - See https://github.com/PaulLerner/bertalign to align (the output should be like https://huggingface.co/datasets/PaulLerner/21-EuroParl-Align)
 
 
