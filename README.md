@@ -1,4 +1,4 @@
-<a target="_blank" href="https://github.com/PaulLerner/21-EuroParl/blob/main/analyze.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/PaulLerner/21-EuroParl/blob/main/analyze.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
