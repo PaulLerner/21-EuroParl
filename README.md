@@ -40,7 +40,7 @@ python -m text2text.prompt --config=/path/to/config.yaml
 
 This prompts a model on a language pair. Obviously, you're free to run a for loop to launch one SLURM job per language pair (see for example [the trad.py script](21-EuroParl/trad.py)).
 
-To print the default config, use
+To print the  config with default arguments (NOT the ones used in our paper), use
 ```yaml
 $ python -m text2text.prompt --print_config
 output_path: null
