@@ -127,16 +127,13 @@ Done! The result should be like https://huggingface.co/datasets/PaulLerner/21-Eu
 ## Citation
 
 ```bib
-@unpublished{lerner:hal-05328251,
-  TITLE = {{Assessing the Political Fairness of Multilingual LLMs: A Case Study based on a 21-way Multiparallel EuroParl Dataset}},
-  AUTHOR = {Lerner, Paul and Yvon, Fran{\c c}ois},
-  URL = {https://hal.science/hal-05328251},
-  NOTE = {working paper or preprint},
-  YEAR = {2025},
-  MONTH = Oct,
-  KEYWORDS = {Parallel Dataset ; Political Fairness ; Political Biases ; Large Language Models},
-  PDF = {https://hal.science/hal-05328251v1/file/LREC_2026_21_europarl%2812%29.pdf},
-  HAL_ID = {hal-05328251},
-  HAL_VERSION = {v1},
+@misc{lerner2025assessingpoliticalfairnessmultilingual,
+      title={Assessing the Political Fairness of Multilingual LLMs: A Case Study based on a 21-way Multiparallel EuroParl Dataset}, 
+      author={Paul Lerner and François Yvon},
+      year={2025},
+      eprint={2510.20508},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.20508}, 
 }
 ```
